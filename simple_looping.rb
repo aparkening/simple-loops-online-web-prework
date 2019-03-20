@@ -45,7 +45,9 @@ end
 
 # Loop using for
 def for_iterator(number_of_times)
-  for counter in 1..4
-    phrase = "Welcome to Flatiron School's Web Development Course!"
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  range = 1..number_of_times
+  for counter in range  
+    puts phrase
   end
 end
